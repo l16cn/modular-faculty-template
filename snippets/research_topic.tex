@@ -1,0 +1,16 @@
+% !TEX root = ../main.tex
+%
+%
+\ifbool{shortest}
+%: Bullet point summary for the cover letter
+	{insert the title of the proposed research topic, accompanied by a short description}
+	{%
+		\ifbool{beamer}
+			{{\bf Proposed Research Topic}\\}
+			{\paragraph{{P}roposed {R}esearch {T}opic}}
+		\ifbool{short}
+%: Paragraph summary
+		{Insert a longer, paragraph-length description for the cover letter.}
+%: Full description
+		{Insert the full, multi-paragraph, figure-illustrated content for the research statement.}
+	}

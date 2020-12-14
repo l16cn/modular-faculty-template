@@ -1,0 +1,55 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com (http://www.latextemplates.com/template/medium-length-professional-cv)
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage{l16cn}
+\usepackage{etaremune}
+\newgeometry{left=0.75in,top=0.6in,right=0.75in,bottom=0.6in} % Document margins
+
+\name{Your Name}
+
+%: Booleans
+\newbool{short} % Show summary in a paragraph
+\booltrue{short} % True: no link; False: publications with URL (COMPILE WITH SHORT = TRUE FIRST, OTHERWISE ERROR WILL OCCUR!!!!!!!!!!!)
+
+\begin{document}
+
+\bibliographystyle{plain}\nobibliography{references}
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Publications}
+\ins{snippets/list_publications}
+\end{rSection}
+
+\newpage
+\begin{rSection}{Presentations}
+\ins{snippets/list_presentations}
+\end{rSection}
+
+\vfill
+\centering Date modified: \today
+
+\end{document}

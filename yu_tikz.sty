@@ -1,0 +1,53 @@
+% Last updated: 2019-11-14 (white sum)
+
+% Tikz
+\newlength{\hdist}
+\setlength{\hdist}{1.5cm} % Horizontal 
+	\DeclareOption{poster}
+		{\setlength{\hdist}{3.5cm}}
+	\ProcessOptions\relax
+\newlength{\vdist}
+\setlength{\vdist}{2\hdist} % Vertical node distance
+\newlength{\sumdist}
+\setlength{\sumdist}{\hdist} % Placement of sum module
+\newlength{\blockh}
+\setlength{\blockh}{0.75\hdist} % Minimum block height
+\newlength{\blockw}
+\setlength{\blockw}{1.5\blockh} % Minimum block width
+\newlength{\moduleh}
+\setlength{\moduleh}{\blockh} % Other module height
+\newlength{\linew}
+\setlength{\linew}{0.05\hdist} % Line width
+\newlength{\dashw}
+\setlength{\dashw}{0.5\linew} % Line width
+\newlength{\longhdist}
+\setlength{\longhdist}{1.75\hdist}
+
+% Sugar size
+\newlength{\glyr}
+\setlength{\glyr}{1.25cm}
+
+% Global tikz settings
+\tikzset{
+	block/.style = {draw, thick, rectangle, minimum height=\blockh, minimum width=\blockw,my-dark-fill,text=white,node distance=\longhdist},
+	decision/.style = {draw, thick, diamond,my-red-fill,text=white,node distance=\longhdist,text badly centered,text width = 0.5\longhdist},
+	cloud/.style = {draw, thick, ellipse, minimum height=\blockh, minimum width=\blockw,my-yellow-fill,text=black,node distance=\longhdist},
+  	gain/.style = {draw, thick, isosceles triangle, minimum height=\moduleh, my-red-fill,
+   		isosceles triangle apex angle=60},
+    port/.style = {inner sep=0pt, font=\small,text=black},
+    sum/.style n args = {4}{draw, thick, circle, node distance=\sumdist, minimum size=\moduleh, alias=sum,
+    my-green-fill,node distance=\longhdist,
+    	append after command={
+			node at (sum.north) [port, below=1pt] {\color{white}$\bm #1$}
+         	node at (sum.west) [port, right=1pt] {\color{white}$\bm #2$}
+          	node at (sum.south) [port, above=1pt] {\color{white}$\bm #3$}
+          	node at (sum.east) [port, left=1pt] {\color{white}$\bm #4$}
+        },
+    },
+    point/.style = {draw, thick, circle, node distance=\longhdist,minimum width=\moduleh,text=white,my-dark-fill},
+    man/.style={my-green-fill,circle,minimum height=\glyr},
+	glcnac/.style={my-dark-fill,rectangle,minimum height=\glyr,minimum width=\glyr},
+	fuc/.style = {my-red-fill, regular polygon, regular polygon sides=3,shape border rotate=150,minimum height=\glyr },
+	gal/.style={my-yellow-fill,circle,minimum height=\glyr},
+  }
+\tikzstyle{every picture}=[auto, node distance=\vdist and \hdist,>=latex,ultra thick,line width = \linew,text=black,font=\sffamily]

@@ -1,0 +1,72 @@
+\beamertemplatenavigationsymbolsempty
+\usetheme{AnnArbor}
+
+\usecolortheme{dolphin}
+
+
+%\usepackage{amsthm,url}
+
+
+
+\setbeamercolor{frametitle}{fg=my-dark, bg={}}
+\setbeamercolor{section in head/foot}{fg=back,bg=fore}
+\setbeamercolor{subsection in head/foot}{fg=back,bg=fore}
+\setbeamercolor{author in head/foot}{fg=back,bg=fore}
+\setbeamercolor{title in head/foot}{fg=back,bg=fore}
+\setbeamercolor{date in head/foot}{fg=back,bg=fore}
+\setbeamercolor{titlelike}{fg=my-dark}
+\setbeamercolor{normal text}{fg=fore,bg=back}
+\setbeamercolor{itemize item}{fg=my-dark}
+\setbeamercolor{itemize subitem}{fg=my-dark}
+\setbeamercolor{itemize subsubitem}{fg=my-dark}
+\setbeamercolor{section in toc}{fg=fore}
+\setbeamercolor{section number projected}{bg=my-dark}
+\setbeamercolor{subsection number projected}{bg=my-dark}
+
+%\usefonttheme{serif}
+%\usefonttheme{structuresmallcapsserif}
+
+\useinnertheme{rectangles}
+%\usebackgroundtemplate{\includegraphics[width = 160mm]{ColumbiaShield.png}}
+%\usebackgroundtemplate{\hspace*{2.75cm}\includegraphics[width = 120mm]{SEAS-hammer}}%{ColumbiaShield.png}}
+
+\newif\ifplacelogo % create a new conditional
+\placelogotrue % set it to true
+
+% Individual logos (2020-10-18)
+\newif\ifculogo
+\culogofalse
+\newif\ifcmulogo
+\cmulogotrue
+\newif\ifuvalogo
+\uvalogofalse
+
+\logo{%
+\ifplacelogo
+  \makebox[\paperwidth - 5px]{%
+  \hspace{0.1 cm}
+%  	\hfill
+	\includegraphics[height=.85cm]{fig/ud_logo}%
+	\hfill
+	\ifculogo
+	\hfill
+	\includegraphics[height=.85cm]{fig/columbia_logo}%
+	\fi
+	\ifcmulogo
+    \hfill    
+	\includegraphics[height=.85cm]{fig/cmu-wordmark-stacked-r}%
+	\fi
+	\ifuvalogo
+	\hfill
+	\includegraphics[height=.85cm]{fig/logo_uva_wide}%
+	\fi
+  }%
+\fi  
+}
+ 
+%\placelogofalse % place outside \frame environment
+%% subsequent slides no logo
+% 
+%\placelogotrue
+%% subsequent slides with logo
+

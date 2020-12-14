@@ -1,0 +1,48 @@
+\documentclass[12pt]{article}
+\usepackage{l16cn,import,yu_color,yu_tikz,
+wrapfig,floatflt}
+\input{library} % Load school-specific information as commands
+\newgeometry{left=0.75in,top=0.6in,right=0.75in,bottom=0.6in} % Document margins
+\makenoidxglossaries
+\loadglsentries{definitions}
+\pagestyle{plain}\NoHyper
+
+\title{Research Statement}
+\author{Your Name}
+\date{} % delete this line to display the current date
+
+%: Booleans
+\newbool{short} % Show summary in a paragraph
+\boolfalse{short}
+\newbool{shortest} % Show summary in a bullet point
+\booltrue{shortest}
+\newbool{wrap}
+\booltrue{wrap}
+\newbool{beamer}
+\boolfalse{beamer} % Remove \paragraph command
+
+%%% BEGIN DOCUMENT
+\begin{document}
+
+\maketitle
+
+%: Opening paragraph
+\ins{snippets/research_opening}
+
+\boolfalse{shortest}
+
+%: Proposed research topic 1
+\ins{snippets/research_topic}
+
+%: Proposed research topic 2
+\ins{snippets/research_topic}
+
+%: References
+\newpage		
+\bibliographystyle{unsrt}
+\bibliography{references}
+
+\vfill
+\centering Date modified: \today
+
+\end{document}

@@ -1,0 +1,148 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com (http://www.latextemplates.com/template/medium-length-professional-cv)
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage{l16cn}
+\usepackage{etaremune}
+\makenoidxglossaries
+\loadglsentries{definitions}
+\newgeometry{left=0.75in,top=0.6in,right=0.75in,bottom=0.6in} % Document margins
+\glsunsetall
+
+\name{Yu Luo} % Your name
+\address{University of Delaware $\vert$
+https://l16cn.github.io
+$\vert$
+Date modified: \today} 
+
+%: Booleans
+\newbool{short} % Show summary in a paragraph
+\booltrue{short} % True: no link; False: publications with URL
+
+\begin{document}
+
+\bibliographystyle{unsrt}\nobibliography{references}
+
+%----------------------------------------------------------------------------------------
+%:	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education and
+Training}
+\ins{snippets/cv_education}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%:	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical Strengths}
+
+\ins{snippets/cv_skills}
+
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%:	RESEARCH
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Research}
+\ins{snippets/cv_udel.tex}
+\ins{snippets/cv_columbia}
+\ins{snippets/cv_pnc_smart}
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%:	PUBLICATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Publications}
+\ins{snippets/list_publications}
+\end{rSection}
+
+%%----------------------------------------------------------------------------------------
+%:	PRESENTATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+\newpage
+\begin{rSection}{Presentations}
+\ins{snippets/list_presentations}
+\end{rSection}
+
+%%----------------------------------------------------------------------------------------
+%:	TEACHING EXPERIENCE SECTION
+%%----------------------------------------------------------------------------------------
+
+\newpage
+\begin{rSection}{Teaching}
+
+{\bf Managing Systemic Risk
+ in Complex Systems (Graduate)} \hfill {Spring 2016} \\ 
+Student Lecturer \hfill \Gls{columbia}
+
+{\bf Managing Systemic Risk
+ in Complex Systems (Graduate)} \hfill {Fall 2015} \\ 
+Student Lecturer \hfill \Gls{columbia}
+
+{\bf Molecular Phenomena 
+(Undergraduate)} \hfill {Spring 2012} \\ 
+Teaching Assistant \hfill \Gls{columbia}
+
+{\bf Thermodynamics (Undergraduate)} \hfill {Fall 2011} \\ 
+Teaching Assistant \hfill \Gls{columbia}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%:	PROFESSIONAL SERVICE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Professional Service}
+
+\begin{rSubsection}{The Canadian Journal of Chemical Engineering}{04/2019--Present}{Reviewer}{}
+\item Reviewed manuscripts on data science, cell culture engineering%, etc.
+
+\end{rSubsection}
+
+\begin{rSubsection}{Journal of Computers and Chemical Engineering}{12/2012--Present}{Outstanding Reviewer}{}
+\item Reviewed 20$+$ manuscripts on fault detection, fault diagnosis, optimization, risk management
+
+\end{rSubsection}
+
+\begin{rSubsection}{AIChE}{11/2014--Present}{Member, Session Chair}{}
+\item Severed as session chair for 
+the Pharmaceutical Discovery, Development, and Manufacturing Forum
+
+\end{rSubsection}
+
+\begin{rSubsection}{Columbia University, Center for the Management of Systemic Risk}{12/2012--05/2017}{Webmaster, Event Assistant, Graphic Designer}{}
+\item Designed print media, assisted
+organizing three university-level symposia
+
+\end{rSubsection}
+
+\end{rSection}
+
+\end{document}
