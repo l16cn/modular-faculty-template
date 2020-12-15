@@ -1,0 +1,83 @@
+% !TEX root = ../main.tex
+\newcommand\drawtree[1]{
+\tikzset{level distance=#1}%70pt}
+\tikzset{edge from parent/.append style={very thick}}
+\tikzset{every tree node/.style={align=center,anchor=north}}
+%\tikzset{frontier/.style={distance from root=225pt}}
+%\tikzset{edge from parent/.style=
+%  {draw,
+%   edge from parent path={(\tikzparentnode.south)
+%-- +(0,-8pt)
+%                          -| (\tikzchildnode)}}}
+\Tree [.\node (root) {\LARGE Yu Luo}; %Systems + Advanced Decision-Making}; %Research Tree of Yu Luo} %{\bf\LARGE Process Systems Engineering\\\bf\LARGE Beyond Chemical Plants} %\\Design and Control of Complex Sociotechnical Systems} 
+		[.\node (phd) {\Large Ph.D.\\(Columbia University)};
+			[.\node (multi_agent) {\large Multi-agent\\\large systems}; %collective dynamics and control};
+				[.\node (sr) {Optimal control for\\decision-making}; %{Multi-agent control in\\sociotechnical systems} 
+					[.\node (sr1) {Regulating\\emerging\\technologies\\\cite{luo2016soft}}; ]
+					[.\node (sr2) {Optimal\\degree of\\social influence\\\cite{luo2018social,luo2019one-third}}; ]
+%					[.{Robust heuristic\\of taking advice} {Ongoing} ]
+					]
+				[.\node (thermo) {Thermodynamics for\\social systems};
+					[.\node (income) {Income inequality\\via game theory\\and stat mech\\\cite{venkatasubramanian2015much,venkatasubramanian2019how-much,venkatasubramanian2019control}
+%					(preprint~\cite{venkatasubramanian2018much})
+					}; ]
+					]
+				]
+			[.\node (risk) {\large Systemic\\\large risk}; %Measuring and managing systemic risk};
+%				[.\node (hft_abm) {Agent-based modeling\\of financial systems};
+%					[.{Market dynamics with\\high-frequency traders} {Ongoing}
+%						]
+%					]				
+				[.\node (mech) {First-principle\\models};
+					[.\node (sdg) {Process hazard\\analysis for\\financial systems\\\cite{bookstaber2015process}}; ]
+					[.\node (pru) {Measuring risk\\based on financial\\statements\\
+					%\cite{iyengar2017towards} 
+					(preprint)};  ]
+%					[.{Multi-agent\\model for high\\frequency trading\\(ongoing)} ]
+					]
+				[.\node (data) {Data-driven\\models}; 
+%					[.{Operational risk\\for PNC} {Completed} ]
+					[.\node (msha) {Early-warning\\system for\\disaster prevention\\%\cite{luo2017a-data-driven} 
+					(presented)}; ]
+					]
+				]
+		]
+		[.\node (postdoc) {\Large Postdoc\\(University of Delaware)};
+			[.\node (bio) {\large Advanced\\\large biomanufacturing%\\\large of biopharmaceuticals
+			};
+				[.\node (mab) {Monoclonal antibody\\production and glycosylation}; 
+%					[.{Model-based process design\\of antibody production\\and glycosylation\\\cite{luo2018multiscale}} ]
+					[.\node (janssen) {System\\identification and\\process design\\\cite{luo2020modeling,wells2020media}}; %luo2018multiscale
+					]
+%					[.{Process control\\and state\\estimation\\(ongoing)} ]
+					[.\node (niimbl) {Model-based\\process\\control\\
+					%\cite{luo2019control} 
+					(presented)}; ]
+%					[.{System identification\\and process design\\of glycosylation\\(ongoing)} ]
+%					[.{Design of\\glycosylation process} {Ongoing} ]
+				]
+%				[.\node (network) {Knowledge\\management}; 
+%					[.{Process\\design for\\glycosylation\\(ongoing)} ]
+%				]
+			]
+			[.\node (med) {\large Biomedical\\\large control}; 
+				[.\node (uva) {Pancreatic\\cancer}; 
+					[.\node (uva-more) {Model-based\\%approach for\\ %\\
+					%multivariate signaling\\ 
+					regulation of\\EMT\\
+					%epithelial-mesenchymal transition
+					(presented)}; ]
+				]
+			]
+			[.\node (epi) {\large Epidemiology\\\large intervention};
+				[.\node (covid) {COVID-19\\pandemic}; 
+					[.\node (covid-project) {Kinetics-based\\
+					modeling and\\
+					intervention\\
+					(ongoing)}; ]
+				]
+			]
+		]
+	]
+%\draw[very thick] (multi_agent.south) -- (hft_abm.north);
+}

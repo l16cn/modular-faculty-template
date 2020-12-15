@@ -1,0 +1,31 @@
+% !TEX root = ../main.tex
+\begin{frame}{Example Slide}
+% Change the global column settings in 8_main.tex (left:right = 3:1 by default)
+\cols{
+
+\begin{itemize}
+	\item<+-> Item A
+	\begin{itemize}
+		\item Subitem 1
+		\item Subitem 2
+	\end{itemize}
+
+	\item<+-> Item B
+	\begin{itemize}
+		\item Subitem 1
+		\item Subitem 2
+	\end{itemize}
+
+	\item<+-> Item C\footnotemark
+	\begin{itemize}
+		\item Subitem 1
+		\item Subitem 2
+	\end{itemize}
+
+\end{itemize}
+
+}{\includegraphics[width = \linewidth]{fig/robot2-lite.jpg}}
+
+\footnotetext<3->{\fullcite{luo2020modeling}}
+
+\end{frame}

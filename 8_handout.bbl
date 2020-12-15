@@ -1,0 +1,483 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{luo2016soft}{article}{}
+      \name{author}{3}{}{%
+        {{hash=78fbe46f8fb763daef158e511a35dbb2}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=e8ec0dd3b8af9f9a1b872c1fe209fb18}{%
+           family={Iyengar},
+           familyi={I\bibinitperiod},
+           given={Garud},
+           giveni={G\bibinitperiod}}}%
+        {{hash=9d542f6bdcf807f58b637fbc07dc1434}{%
+           family={Venkatasubramanian},
+           familyi={V\bibinitperiod},
+           given={Venkat},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{4e91aef0f11a227f9424bd683a467efc}
+      \strng{fullhash}{9df1379c6fe355366eee4afd66285b4c}
+      \strng{bibnamehash}{9df1379c6fe355366eee4afd66285b4c}
+      \strng{authorbibnamehash}{9df1379c6fe355366eee4afd66285b4c}
+      \strng{authornamehash}{4e91aef0f11a227f9424bd683a467efc}
+      \strng{authorfullhash}{9df1379c6fe355366eee4afd66285b4c}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PLoS ONE}
+      \field{month}{3}
+      \field{number}{3}
+      \field{title}{Soft regulation with crowd recommendation: coordinating self-interested agents in sociotechnical systems under imperfect information}
+      \field{volume}{11}
+      \field{year}{2016}
+      \field{pages}{e0150343}
+      \range{pages}{-1}
+    \endentry
+    \entry{luo2018social}{article}{}
+      \name{author}{3}{}{%
+        {{hash=78fbe46f8fb763daef158e511a35dbb2}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=e8ec0dd3b8af9f9a1b872c1fe209fb18}{%
+           family={Iyengar},
+           familyi={I\bibinitperiod},
+           given={Garud},
+           giveni={G\bibinitperiod}}}%
+        {{hash=9d542f6bdcf807f58b637fbc07dc1434}{%
+           family={Venkatasubramanian},
+           familyi={V\bibinitperiod},
+           given={Venkat},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{4e91aef0f11a227f9424bd683a467efc}
+      \strng{fullhash}{9df1379c6fe355366eee4afd66285b4c}
+      \strng{bibnamehash}{9df1379c6fe355366eee4afd66285b4c}
+      \strng{authorbibnamehash}{9df1379c6fe355366eee4afd66285b4c}
+      \strng{authornamehash}{4e91aef0f11a227f9424bd683a467efc}
+      \strng{authorfullhash}{9df1379c6fe355366eee4afd66285b4c}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Computational Social Systems}
+      \field{month}{3}
+      \field{number}{1}
+      \field{title}{Social influence makes self-interested crowds smarter: an optimal control perspective}
+      \field{volume}{5}
+      \field{year}{2018}
+      \field{pages}{200\bibrangedash 209}
+      \range{pages}{10}
+    \endentry
+    \entry{luo2019one-third}{article}{}
+      \name{author}{3}{}{%
+        {{hash=78fbe46f8fb763daef158e511a35dbb2}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=e8ec0dd3b8af9f9a1b872c1fe209fb18}{%
+           family={Iyengar},
+           familyi={I\bibinitperiod},
+           given={Garud},
+           giveni={G\bibinitperiod}}}%
+        {{hash=9d542f6bdcf807f58b637fbc07dc1434}{%
+           family={Venkatasubramanian},
+           familyi={V\bibinitperiod},
+           given={Venkat},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{4e91aef0f11a227f9424bd683a467efc}
+      \strng{fullhash}{9df1379c6fe355366eee4afd66285b4c}
+      \strng{bibnamehash}{9df1379c6fe355366eee4afd66285b4c}
+      \strng{authorbibnamehash}{9df1379c6fe355366eee4afd66285b4c}
+      \strng{authornamehash}{4e91aef0f11a227f9424bd683a467efc}
+      \strng{authorfullhash}{9df1379c6fe355366eee4afd66285b4c}
+      \field{extraname}{3}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2329-924X}
+      \field{journaltitle}{IEEE Transactions on Computational Social Systems}
+      \field{month}{6}
+      \field{number}{3}
+      \field{title}{A One-Third Advice Rule Based on a Control-Theoretic Opinion Dynamics Model}
+      \field{volume}{6}
+      \field{year}{2019}
+      \field{pages}{576\bibrangedash 581}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/TCSS.2019.2910261
+      \endverb
+      \keyw{Decision making;Control theory;Psychology;Dynamics;Technological innovation;Dispersion;Chemicals;Advice taking;control theory;decision-making;judge--advisor system;opinion dynamics;social influence;wisdom of crowds}
+    \endentry
+    \entry{venkatasubramanian2015much}{article}{}
+      \name{author}{3}{}{%
+        {{hash=9d542f6bdcf807f58b637fbc07dc1434}{%
+           family={Venkatasubramanian},
+           familyi={V\bibinitperiod},
+           given={Venkat},
+           giveni={V\bibinitperiod}}}%
+        {{hash=78fbe46f8fb763daef158e511a35dbb2}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=84036c8e14985e7cc4995aec3cd182ee}{%
+           family={Sethuraman},
+           familyi={S\bibinitperiod},
+           given={Jay},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{36728ed7f1c42d0cd9ecf07185a8d3e4}
+      \strng{fullhash}{8271befa65d8e7e480c11af42286c5c1}
+      \strng{bibnamehash}{8271befa65d8e7e480c11af42286c5c1}
+      \strng{authorbibnamehash}{8271befa65d8e7e480c11af42286c5c1}
+      \strng{authornamehash}{36728ed7f1c42d0cd9ecf07185a8d3e4}
+      \strng{authorfullhash}{8271befa65d8e7e480c11af42286c5c1}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physica A: Statistical Mechanics and its Applications}
+      \field{month}{10}
+      \field{title}{How much inequality in income is fair? {A} microeconomic game theoretic perspective}
+      \field{volume}{435}
+      \field{year}{2015}
+      \field{pages}{120\bibrangedash 138}
+      \range{pages}{19}
+    \endentry
+    \entry{venkatasubramanian2019how-much}{incollection}{}
+      \name{author}{2}{}{%
+        {{hash=9d542f6bdcf807f58b637fbc07dc1434}{%
+           family={Venkatasubramanian},
+           familyi={V\bibinitperiod},
+           given={Venkat},
+           giveni={V\bibinitperiod}}}%
+        {{hash=78fbe46f8fb763daef158e511a35dbb2}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=04b0b0b58434d3ab26289aa29ef27453}{%
+           family={Chakrabarti},
+           familyi={C\bibinitperiod},
+           given={Anindya},
+           giveni={A\bibinitperiod}}}%
+        {{hash=68decd7327a31c4c87c6e7aea9630f1f}{%
+           family={Pichl},
+           familyi={P\bibinitperiod},
+           given={Lukas},
+           giveni={L\bibinitperiod}}}%
+        {{hash=4bb5e30eff9406a755eb07e833a20a5f}{%
+           family={Kaizoji},
+           familyi={K\bibinitperiod},
+           given={Taisei},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Singapore}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{2bfaa949688197cf10e58bc984a18b27}
+      \strng{fullhash}{2bfaa949688197cf10e58bc984a18b27}
+      \strng{bibnamehash}{2bfaa949688197cf10e58bc984a18b27}
+      \strng{authorbibnamehash}{2bfaa949688197cf10e58bc984a18b27}
+      \strng{authornamehash}{2bfaa949688197cf10e58bc984a18b27}
+      \strng{authorfullhash}{2bfaa949688197cf10e58bc984a18b27}
+      \strng{editorbibnamehash}{21b80e005e4a831b6f0cc5d4f3b041ee}
+      \strng{editornamehash}{b866a8a8a8ec4a2c22c7ef17a46a4a49}
+      \strng{editorfullhash}{21b80e005e4a831b6f0cc5d4f3b041ee}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Network Theory and Agent-Based Modeling in Economics and Finance}
+      \field{month}{12}
+      \field{title}{How Much Income Inequality is Fair? {N}ash Bargaining Solution and Its Connection to Entropy}
+      \field{year}{2019}
+      \field{pages}{159\bibrangedash 174}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1007/978-981-13-8319-9
+      \endverb
+    \endentry
+    \entry{venkatasubramanian2019control}{article}{}
+      \name{author}{3}{}{%
+        {{hash=9d542f6bdcf807f58b637fbc07dc1434}{%
+           family={Venkatasubramanian},
+           familyi={V\bibinitperiod},
+           given={Venkat},
+           giveni={V\bibinitperiod}}}%
+        {{hash=78fbe46f8fb763daef158e511a35dbb2}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=f23395544529788a0fb9b49679804fda}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Zhizun},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{36728ed7f1c42d0cd9ecf07185a8d3e4}
+      \strng{fullhash}{9d05f8678a0a0ac1f643c31714d4ca87}
+      \strng{bibnamehash}{9d05f8678a0a0ac1f643c31714d4ca87}
+      \strng{authorbibnamehash}{9d05f8678a0a0ac1f643c31714d4ca87}
+      \strng{authornamehash}{36728ed7f1c42d0cd9ecf07185a8d3e4}
+      \strng{authorfullhash}{9d05f8678a0a0ac1f643c31714d4ca87}
+      \field{extraname}{2}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Recent systemic failures in different domains have reminded us, once again, of the fragility of complex sociotechnical systems. Although the failures occurred in very different domains, there are, however, certain common underlying mechanisms driving these disasters. Understanding these mechanisms is essential to avoid such disasters in the future. To understand them, one needs to go beyond analyzing them as independent one-off accidents, and examine them in the broader perspective of the potential fragility of sociotechnical systems. It is their scale, nonlinearity, inter-connectedness, and interactions with humans and the environment that can make these systems fragile. Here we present an overview of the challenges and opportunities in the modeling and analysis of sociotechnical systems. We highlight a control-theoretic modeling framework that unifies the social and the technical components. We discuss how certain problems can be addressed by using concepts and techniques from causal modeling, game theory, and behavioral economics.}
+      \field{issn}{0098-1354}
+      \field{journaltitle}{Computers \& Chemical Engineering}
+      \field{month}{4}
+      \field{title}{Control of complex sociotechnical systems: importance of causal models and game theory}
+      \field{volume}{123}
+      \field{year}{2019}
+      \field{pages}{1\bibrangedash 11}
+      \range{pages}{11}
+      \keyw{Systemic risk,Complex systems,Process systems engineering}
+    \endentry
+    \entry{bookstaber2015process}{article}{}
+      \name{author}{6}{}{%
+        {{hash=c96d1cb8cb0a71b0734de0fe6157c11a}{%
+           family={Bookstaber},
+           familyi={B\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+        {{hash=ad8512135fae00796ff8f92716d977c9}{%
+           family={Glasserman},
+           familyi={G\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=e8ec0dd3b8af9f9a1b872c1fe209fb18}{%
+           family={Iyengar},
+           familyi={I\bibinitperiod},
+           given={Garud},
+           giveni={G\bibinitperiod}}}%
+        {{hash=78fbe46f8fb763daef158e511a35dbb2}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=9d542f6bdcf807f58b637fbc07dc1434}{%
+           family={Venkatasubramanian},
+           familyi={V\bibinitperiod},
+           given={Venkat},
+           giveni={V\bibinitperiod}}}%
+        {{hash=f23395544529788a0fb9b49679804fda}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Zhizun},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{887b4f39649a6236173148021a80a967}
+      \strng{fullhash}{4c598ef7d7f9ff2bd964abc6ba3fe445}
+      \strng{bibnamehash}{887b4f39649a6236173148021a80a967}
+      \strng{authorbibnamehash}{887b4f39649a6236173148021a80a967}
+      \strng{authornamehash}{887b4f39649a6236173148021a80a967}
+      \strng{authorfullhash}{4c598ef7d7f9ff2bd964abc6ba3fe445}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Investing}
+      \field{month}{5}
+      \field{number}{2}
+      \field{title}{Process systems engineering as a modeling paradigm for analyzing systemic risk in financial networks}
+      \field{volume}{24}
+      \field{year}{2015}
+      \field{pages}{147\bibrangedash 162}
+      \range{pages}{16}
+    \endentry
+    \entry{luo2020modeling}{article}{}
+      \name{author}{11}{}{%
+        {{hash=78fbe46f8fb763daef158e511a35dbb2}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=1d62b9f029aedfcbd94fd8a21f87e3b2}{%
+           family={Lovelett},
+           familyi={L\bibinitperiod},
+           given={Robert\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=aaff2023fbd7f89a3ad9236a3e3cca38}{%
+           family={Price},
+           familyi={P\bibinitperiod},
+           given={J.\bibnamedelimi Vincent},
+           giveni={J\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=a786da73064ad2ccc3a0c011f13a48c5}{%
+           family={Radhakrishnan},
+           familyi={R\bibinitperiod},
+           given={Devesh},
+           giveni={D\bibinitperiod}}}%
+        {{hash=8725541ca81687e50579e09e30cfc24f}{%
+           family={Barnthouse},
+           familyi={B\bibinitperiod},
+           given={Kristopher},
+           giveni={K\bibinitperiod}}}%
+        {{hash=9c0dba50e81fde0609d5931f82906b31}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Ping},
+           giveni={P\bibinitperiod}}}%
+        {{hash=2c9af275838b7d3c6e035d804a9ebd41}{%
+           family={Schaefer},
+           familyi={S\bibinitperiod},
+           given={Eugene},
+           giveni={E\bibinitperiod}}}%
+        {{hash=e63ef8ceae902f0c41ac56803408dfc3}{%
+           family={Cunningham},
+           familyi={C\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=81e4aefa89cff0459fed032320966585}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Kelvin\bibnamedelima H.},
+           giveni={K\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=8db1b2e18e6529cad8518ee7da088ddb}{%
+           family={Shivappa},
+           familyi={S\bibinitperiod},
+           given={Raghunath\bibnamedelima B.},
+           giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=a96e37c1717a7c0890a66f42944d33dc}{%
+           family={Ogunnaike},
+           familyi={O\bibinitperiod},
+           given={Babatunde\bibnamedelima A.},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{4e91aef0f11a227f9424bd683a467efc}
+      \strng{fullhash}{dd1263bced1ef4ef65d8c69a2c267fe1}
+      \strng{bibnamehash}{4e91aef0f11a227f9424bd683a467efc}
+      \strng{authorbibnamehash}{4e91aef0f11a227f9424bd683a467efc}
+      \strng{authornamehash}{4e91aef0f11a227f9424bd683a467efc}
+      \strng{authorfullhash}{dd1263bced1ef4ef65d8c69a2c267fe1}
+      \field{extraname}{4}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biotechnology Journal}
+      \field{note}{In press}
+      \field{title}{Modeling the effect of amino acids and copper on monoclonal antibody productivity and glycosylation: a modular approach}
+      \field{year}{2020}
+    \endentry
+    \entry{wells2020media}{article}{}
+      \name{author}{7}{}{%
+        {{hash=6bb7de51e93543461b80be8480780ae7}{%
+           family={Wells},
+           familyi={W\bibinitperiod},
+           given={Evan},
+           giveni={E\bibinitperiod}}}%
+        {{hash=778503972bbc2905653acada22d1b874}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Liqing},
+           giveni={L\bibinitperiod}}}%
+        {{hash=b764d86f59ea2f043039eb4e353d8940}{%
+           family={Greer},
+           familyi={G\bibinitperiod},
+           given={Madison},
+           giveni={M\bibinitperiod}}}%
+        {{hash=78fbe46f8fb763daef158e511a35dbb2}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=aff620c71836d0b563f8fe6285001d49}{%
+           family={Kurian},
+           familyi={K\bibinitperiod},
+           given={Varghese},
+           giveni={V\bibinitperiod}}}%
+        {{hash=a96e37c1717a7c0890a66f42944d33dc}{%
+           family={Ogunnaike},
+           familyi={O\bibinitperiod},
+           given={Babatunde\bibnamedelima A.},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=f5a629dc4c3c13d4d88523e219bd8b49}{%
+           family={Robinson},
+           familyi={R\bibinitperiod},
+           given={Anne\bibnamedelima S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{f4c876ca949b0c0cb7ea229c74ffb1e4}
+      \strng{fullhash}{728b88f09fc42fb886f9303f3c98469f}
+      \strng{bibnamehash}{f4c876ca949b0c0cb7ea229c74ffb1e4}
+      \strng{authorbibnamehash}{f4c876ca949b0c0cb7ea229c74ffb1e4}
+      \strng{authornamehash}{f4c876ca949b0c0cb7ea229c74ffb1e4}
+      \strng{authorfullhash}{728b88f09fc42fb886f9303f3c98469f}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract Monoclonal antibodies are critically important biologics as the largest class of molecules used to treat cancers, rheumatoid arthritis, and other chronic diseases. Antibody glycosylation is a critical quality attribute that has ramifications for patient safety and physiological efficacy---one that can be modified by such factors as media formulation and process conditions during production. Using a design-of-experiments approach, we examined the effect of 2-F-peracetyl fucose (2FP), uridine, and galactose on cell growth and metabolism, titer, and gene expression of key glycosylation-related proteins, and report how the glycoform distribution changed from Days 4 to 7 in a batch process used for IgG1 production from Chinese hamster ovary cells. We observed major glycosylation changes upon supplement addition, where the addition of 2FP decreased antibody fucosylation by up to 48\%, galactose addition increased galactosylation by up to 21\%, and uridine addition decreased fucosylation and increased galactosylation by 6\% and 2\%, respectively. Despite having major effects on glycosylation, neither galactose nor 2FP significantly affected cell culture growth, metabolism, or titer. Uridine improved peak cell densities by 23\% but also reduced titer by ∼30\%. The supplements caused significant changes in gene expression by Day 4 of the cultures where 2FP addition significantly reduced fucosyltransferase 8 and nucleotide sugar transporter gene expression (by ∼2-fold), and uridine addition significantly increased expression of UDP-GlcNAcT (SLC35A3) and B4GALT1--6 genes (by 1.5--3-fold). These gene expression data alongside glycosylation, metabolic, and growth data improve our understanding of the cellular mechanisms affected by media supplementation and suggest approaches for modifying antibody glycosylation in antibody production processes.}
+      \field{journaltitle}{Biotechnology and Bioengineering}
+      \field{month}{7}
+      \field{number}{11}
+      \field{title}{Media supplementation for targeted manipulation of monoclonal antibody galactosylation and fucosylation}
+      \field{volume}{117}
+      \field{year}{2020}
+      \field{pages}{3310\bibrangedash 3321}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1002/bit.27496
+      \endverb
+      \verb{eprint}
+      \verb https://onlinelibrary.wiley.com/doi/pdf/10.1002/bit.27496
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/bit.27496
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/bit.27496
+      \endverb
+      \keyw{antibody,Chinese hamster ovary,design of experiments}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

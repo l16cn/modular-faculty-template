@@ -1,0 +1,64 @@
+% !TEX root = ../main.tex
+\begin{frame}{Research Background}
+%\cols{
+%\begin{itemize}
+%	\item \gls{nus} (2007--2011)
+%	\item \gls{columbia} (2011--2016)
+%	\item \gls{ud} (2017--present)
+%\end{itemize}
+%}{
+%}
+\begin{center}
+\begin{adjustbox}{max width = \linewidth}
+\begin{tikzpicture}
+\input{fig/research_tree_core}
+\drawtree{2.25cm}
+\def\r{0.1\longhdist}
+\def\c{red}
+\def\o{0.5}
+
+\onslide<1->{
+\fill [\c,opacity=\o] (root) circle [radius=\r];
+}
+
+\onslide<2,3>{
+%\fill [\c,opacity=\o] (thermo) circle [radius=\r];
+%\fill [\c,opacity=\o] (income) circle [radius=\r];
+\fill [\c,opacity=\o] (risk) circle [radius=\r];
+%\fill [\c,opacity=\o] (mech) circle [radius=\r];
+%\fill [\c,opacity=\o] (data) circle [radius=\r];
+%\fill [\c,opacity=\o] (sdg) circle [radius=\r];
+%\fill [\c,opacity=\o] (pru) circle [radius=\r];
+%\fill [\c,opacity=\o] (msha) circle [radius=\r];
+}
+
+\onslide<3>{
+\fill [\c,opacity=\o] (epi) circle [radius=\r];
+\fill [\c,opacity=\o] (med) circle [radius=\r];
+}
+
+\onslide<4->{
+%\fill [\c,opacity=\o] (sr) circle [radius=\r];
+%\fill [\c,opacity=\o] (sr1) circle [radius=\r];
+%\fill [\c,opacity=\o] (sr2) circle [radius=\r];
+\fill [\c,opacity=\o] (mab) circle [radius=\r];
+\fill [\c,opacity=\o] (janssen) circle [radius=\r];
+\fill [\c,opacity=\o] (niimbl) circle [radius=\r];
+%\fill [\c,opacity=\o] (uva) circle [radius=\r];
+%\fill [\c,opacity=\o] (uva-more) circle [radius=\r];
+}
+
+\onslide<2,3>{
+\fill [\c,opacity=\o] (phd) circle [radius=\r];
+\fill [\c,opacity=\o] (multi_agent) circle [radius=\r];
+}
+
+\onslide<3->{
+\fill [\c,opacity=\o] (postdoc) circle [radius=\r];
+\fill [\c,opacity=\o] (bio) circle [radius=\r];
+}
+
+\end{tikzpicture}
+\end{adjustbox}
+\end{center}
+\end{frame}

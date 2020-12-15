@@ -11,7 +11,7 @@
 
 %: Booleans
 \newbool{short} % Show summary in a paragraph
-\boolfalse{short} % True: include diversity; False: standalone diversity statement
+\booltrue{short} % False: include the diversity statement
 
 %%% BEGIN DOCUMENT
 \begin{document}
@@ -20,7 +20,11 @@
 
 Insert your teaching statement here. 
 It is unlikely to contain any modules used by
-other documents.
+other documents. 
+Change \verb!\booltrue{short}! to \verb!\boolfalse{short}! to
+include the equity, diversity, and inclusion statement.
+
+\ifbool{short}{}{\ins{module/edi}}
 
 \vfill
 \centering Date modified: \today

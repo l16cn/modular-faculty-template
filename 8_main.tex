@@ -1,0 +1,89 @@
+% !TEX root = main.tex
+\usepackage{l16cn,yu_color,yu_style,import,yu_tikz,multicol,appendixnumberbeamer,multirow}
+\usepackage[citestyle=numeric,bibstyle=science,backend=biber,sorting=none]{biblatex}
+\addbibresource{references.bib}
+\usetikzlibrary{calc}
+\makenoidxglossaries
+\loadglsentries{definitions}
+\renewcommand{\em}{\bf\color{red}}
+\setbeamertemplate{itemize subitem}[triangle]
+\setbeamertemplate{itemize subsubitem}[circle]
+\usepackage{tabularx}\newcolumntype{Z}{>{\centering\arraybackslash}X} % centered tabularx columns
+\input{library}
+
+% Geometries
+\def\leftcolumnwidth{0.75\linewidth} % Usually put text on the left and figures on the right
+\newcommand{\cols}[2]{
+\begin{columns}
+\column{\leftcolumnwidth}
+#1
+\column{\linewidth - \leftcolumnwidth}
+#2
+\end{columns}
+}
+
+% Section page
+\AtBeginSection[]
+{
+  \begin{frame}
+    \frametitle{Outline}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
+
+
+\title[Short Title]
+{Full Title of Your Job Talk}
+\subtitle{Subtitle of Your Job Talk}
+\author[Your Name] % (optional, for multiple authors)
+{{\bf Your Name}}
+\institute[Your University]{} % (optional)
+\date[\talkdate{}] % (optional)
+{\school{} 
+\rule[-0.4ex]{0.2ex}{1.2em} 
+\talkdate{} \rule[-0.4ex]{0.2ex}{1.2em} 
+\addr{}}
+\subject{Chemical Engineering}
+
+%% Uncomment to preview individual Tikz pictures: https://michaelgoerz.net/notes/creating-eps-files-from-tikz.html
+%\usepackage[psfixbb,graphics,tightpage,active]{preview}
+%\PreviewEnvironment{tikzpicture}
+%\newlength{\imagewidth}
+%\newlength{\imagescale}
+
+\begin{document}
+
+\frame{\titlepage}
+
+%\input{0_Preamble}
+\placelogofalse
+
+%: Research tree
+\subimport{slide/}{research_tree}
+
+%: ACS NIIMBL Talk
+%\section{Model-Based Control %of %Glycosylation and Titer}
+%%Fed-Batch Cell Culture Processes}
+%of mAb Glycosylation}%Manufacturing}
+\placelogotrue
+\section{Introduction}\placelogofalse
+\glsresetall
+	\ins{slide/example_slide}
+	\ins{slide/example_slide}
+\placelogotrue
+\section{Methods}\placelogofalse
+	\ins{slide/example_slide}
+\placelogotrue
+\section{Results and Discussion}\placelogofalse
+	\ins{slide/example_slide}
+\placelogotrue
+\section{Summary and Acknowledgment}\placelogofalse
+	\ins{slide/example_slide}
+	
+\appendix
+\placelogofalse
+\begin{frame}[allowframebreaks]{References}
+\printbibliography
+\end{frame}
+
+\end{document}
