@@ -1,4 +1,5 @@
-# Modular Faculty Application (LaTeX Templates)
+Modular Faculty Application (LaTeX Templates)
+=====
 
 ## On Overleaf
 
@@ -27,7 +28,7 @@
 - `fig/`: figure directory
 - `slide/`: presentation directory
     + `example_slide.tex`: sample slide with animation, bullet points, an in-text citation, and a figure
-    + `research_tree.tex`: example research tree slide (extracted from [my personal website](https://l16cn.github.io))
+    + `research_tree.tex`: example research tree slide (extracted from [my personal website](https://yuluo.me))
 - `module/`: module directory
     + `bio_unique_background.tex`: background module
     + `cv_*.tex`: example modules for CV
@@ -36,3 +37,10 @@
     + `list_publications.tex`: list of presentations module for CV
     + `research_opening.tex`: opening paragraph module used by both the cover letter and the research statement
     + `research_topic.tex`: proposed research topic module
+
+## Log
+
+#### 2020-12-21
+
+- [Modular Faculty Template](https://www.overleaf.com/latex/templates/modular-faculty-template/ypdtgsfsshkw) is now available as an Overleaf template
+- This README is the new default main file
