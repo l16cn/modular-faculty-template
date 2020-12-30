@@ -1,8 +1,20 @@
 Modular Faculty Application (LaTeX Templates)
 =====
 
+## Introduction
+
+It takes a lot of time preparing a job application package. So for my own applications, I created a "modular" template in LaTeX to satisfy the following two objectives.
+
+- To assemble content modules for an application. For instance, I may want to include two out of three prepared research topics for one position, but another two for a different position.
+- To eliminate "hard-coded" repetitions. If certain content appears in more than one place, I can edit the corresponding module, and the updates will appear in all the places that link to that module.
+
+Doing so not only has saved me lots of time, but it also helps me avoid inconsistency caused by hard-coding. Now, I want to make this template publicly available.
+
+In the `.tex` files, I removed as much information that is specific to me as possible. However, I think it more helpful for some files (e.g., the CV template) to retain such information. All information specific to me can also be found on my personal website.
+
 ## On Overleaf
 
+- [Modular Faculty Template](https://www.overleaf.com/latex/templates/modular-faculty-template/ypdtgsfsshkw) is now available as an Overleaf template
 - Click on "Menu" and choose one of the following files as the "Main document" to compile:
     + `1_cover.tex`: cover letter
     + `2_cv.tex`: CV
@@ -39,6 +51,10 @@ Modular Faculty Application (LaTeX Templates)
     + `research_topic.tex`: proposed research topic module
 
 ## Log
+
+#### 2020-12-30
+
+- Added an Introduction
 
 #### 2020-12-21
 
